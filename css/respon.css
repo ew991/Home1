@@ -1,0 +1,229 @@
+/* Kích cỡ màn hình dưới 600px */
+@media only screen and (max-width: 600px) {
+
+    /* Điều chỉnh các phần tử cho kích cỡ màn hình nhỏ hơn hoặc bằng 600px ở đây */
+    body {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .SiteFooter {
+        display: none;
+    }
+
+    .navbar a:not(:nth-child(2)) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .block2 {
+
+        flex-direction: column-reverse;
+        margin-left: 310px;
+    }
+
+    .block2 img {
+
+        width: 650px;
+    }
+
+    .block2 .txt h1 {
+        width: 700px;
+    }
+
+    .block2 .txt {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .AboutUs {
+        flex-direction: column-reverse;
+    }
+
+    .trnah img {
+        margin-top: 0px;
+        width: 900px;
+        height: 600px;
+    }
+
+    .IforButton {
+        margin-top: 0px;
+    }
+
+    .AboutUs {
+        transform: translateY(0px);
+        gap: 0px;
+    }
+
+    .inforAboutUs .Abu {
+        font-size: 44px;
+        line-height: 0%;
+    }
+
+    .inforAboutUs .Abus {
+        font-size: 25px;
+        line-height: 120%;
+    }
+
+    .ProfenlTem {
+        margin-top: 150px;
+    }
+}
+
+/* Kích cỡ màn hình từ 601px đến 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    /* Điều chỉnh các phần tử cho kích cỡ màn hình từ 601px đến 900px ở đây */
+    body {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .SiteFooter {
+        display: none;
+    }
+
+    .block2 .txt h1 {
+        width: 500px;
+        font-size: 56px;
+        line-height: 54px;
+    }
+
+    .block2 button {
+        width: 180px;
+        height: 70px;
+    }
+
+    .block2 img {
+        margin-left: -18px;
+    }
+
+    .slideBtn {
+        margin-left: 610px;
+    }
+
+    .box h1.name_ser {
+
+        font-size: 25px;
+    }
+
+    .box p.infser {
+        font-size: 17px;
+    }
+
+    .CoreService {
+        margin-left: 80px;
+    }
+
+    .ProfenlTem {
+        margin-left: 80px;
+    }
+
+    .ButtonG {
+        margin-top: 25px;
+    }
+
+    .conTact {
+        flex-direction: row-reverse;
+    }
+
+    .navbar a {
+        font-size: 25px;
+    }
+
+    .navbar img {
+        margin-right: 5px;
+    }
+
+    .navbar button.right {
+
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .conTact .ttForm p {
+        font-size: 30px;
+    }
+
+    .TitleDesc div.tt1 {
+        font-size: 25px;
+
+    }
+
+
+}
+
+/* Kích cỡ màn hình từ 901px đến 1200px */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+
+    /* Điều chỉnh các phần tử cho kích cỡ màn hình từ 901px đến 1200px ở đây */
+
+
+    body {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .SiteFooter {
+        display: none;
+    }
+
+    .block2 {
+        margin-left: 70px;
+    }
+
+    .AboutUs {
+        gap: 1px;
+    }
+
+    .trnah img {
+        width: 500px;
+    }
+
+    .slideBtn {
+        margin-left: 530px;
+    }
+
+    .block2 img {
+        width: 58%;
+    }
+
+    .block2 .txt h1 {
+        width: 280px;
+        font-size: 32px;
+    }
+
+    .block2 .txt {
+        margin-left: 330px;
+    }
+
+    .navbar img {
+        margin-left: 240px;
+    }
+}
