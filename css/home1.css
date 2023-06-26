@@ -144,7 +144,7 @@ body {
 
 .navbar {
     display: flex;
-    width: 100%;
+    width: 90%;
     align-items: center;
     justify-content: space-between;
 }
@@ -201,7 +201,7 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
     color: black;
     border: none;
 }
@@ -495,7 +495,7 @@ body {
 }
 
 .FormContra input {
-
+    color: #FF64AE;
     background: #FFFFFF;
     border: 1px solid #D9DDFE;
     border-radius: 15px;
@@ -540,6 +540,7 @@ body {
 }
 
 .FormContra textarea {
+    color: #FF64AE;
     max-width: 520px;
     resize: none;
     height: 239.47px;
